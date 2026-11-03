@@ -1,0 +1,13 @@
+app:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: demo@gmail.com
+    password: demo-password
+
+  storage:
+    location: uploads
+    max-file-size: 10MB
+spring:
+  profiles:
+    active: dev
